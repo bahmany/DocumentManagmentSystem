@@ -1,0 +1,965 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUS" xml:space="preserve">
+    <value>آشنایی با ما</value>
+  </data>
+  <data name="about_page_def" xml:space="preserve">
+    <value>با کلیک در این قسمت می توانید اطلاعات کاملی در رابطه با ساختار شرکت داشته باشید </value>
+  </data>
+  <data name="about_us" xml:space="preserve">
+    <value>&lt;style type="text/css"&gt;
+        .style2
+        {
+            color: #0000FF;
+            font-weight: bold;
+        }
+        .style3
+        {
+            color: #006600;
+        }
+        .style4
+        {
+            color: #0033CC;
+            font-weight: bold;
+        }
+    &lt;/style&gt;&lt;center&gt;&lt;b&gt;&lt;span class="style3"&gt;بسمه تعالی
+    &lt;/span&gt;
+    &lt;br class="style3" /&gt;
+    &lt;br class="style3" /&gt;
+    &lt;/b&gt;
+&lt;/center&gt;
+&lt;div dir=rtl&gt;
+
+    شرکت &lt;span class="style4"&gt;پارس فولاد مبین&lt;/span&gt; ، در سال 1387 به عنوان یکی از 
+    مراکز خدماتی مجتمع فولاد مباركه ,به منظور ارائه، توزیع و فروش انواع محصولات 
+    تولیدی اين مجتمع با محوریت حفظ حقوق مشتری و با اندیشه ایجاد نوآوری و تحول در 
+    عرصه فروش و خدمات در استان تهران تاسیس و آغاز به كار نمود. شرکت پارس فولاد مبین 
+    ، همزمان با آغاز فعالیت فروش محصولات ، اقدام به تهیه زمین در شهرک صنعتی شمس آباد 
+    در 45 کیلومتری تهران به منظور احداث کارخانجات برش و فرم دهی با خطوط برش مدرن و 
+    مجهز به سیستمهای مکانیزه روز کرده است ، که کلیه قراردادهای آن با پیمانکاران 
+    منعقد گردیده و بزودی افزون بر خدمات فروش افتخار دارد خدمات تولیدی و تبدیلی خود 
+    را به عنوان یکی از پیشرفته ترین واحدهای صنعتی به مشتریان محترم ارائه نماید و در 
+    این راستا بیشترین کوشش ممکن را در جلب رضایت و افزایش تنوع محصولات ، متناسب با 
+    نیازمندیهای روز مشتریان خودبه عمل می آورد. شرکت پارس فولاد مبین ،در حال حاضر به 
+    صورت نماینده فروش مجتمع فولاد مبارکه اصفهان در تهران عهده دار تامین نیاز بخش 
+    عمده ای از واحد های تولیدی و بازرگانی بوده وسالانه میزان قابل توجهی از محصولات 
+    فولاد مبارکه را به صورت خرده فروشی با قیمت های رقابتی و کیفیت مطلوب محصولات در 
+    گرید های منطبق با استانداردهای معتبربین المللی و رعایت دقیق تلرانسهای ابعادی با 
+    بسته بندی هایی که به بهترین وجه حفاظت کالا را هنگام حمل و نقل و نگهداری تامین می 
+    کنند ، در اختیار مصرف کنندگان قرار می دهد.
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;span class="style2"&gt;برخی از خدمات این شرکت به طور خلاصه بشرح زیر می باشد:&lt;/span&gt;&lt;br /&gt;
+    1- ارائه کلیه محصولات فولاد مبارکه اعم از&lt;br /&gt;
+    ·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ورق و كلاف گرم (Hot Rolled Coil &amp;amp; Sheet)     &lt;br /&gt;
+    ·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ورق قلع اندود (Tin Plated Steel Sheet)
+    &lt;br /&gt;
+    ·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ورق سرد&amp;nbsp; ( Sheet &amp;amp; Cold Rolled Coil )&lt;br /&gt;
+    ·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ورق اسید شوئی&amp;nbsp; ( Pickled Coil )&lt;br /&gt;
+    ·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; کلاف گالوانیزه(Hot Dip Zinc Coated Steel Sheet)
+    &lt;br /&gt;
+    ·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ورق وکلافهای رنگی(Coil Coated Steel Sheet) در اندازه 
+    های مختلف و رنگهای قرمز,آبی ، سفید و ...
+    &lt;br /&gt;
+    2- تبدیل رول به ورق در ابعاد و اشکال مختلف (کرکره، زد،ذوزنقه وغیره).
+    &lt;br /&gt;
+    3- حمل از مبدا كارخانه فولاد مباركه به انبار مشتريان به صورت مستقيم.
+    &lt;br /&gt;
+    4- تحويل كالا در انبار هاي تهران و اصفهان.&lt;br /&gt;
+&amp;nbsp;&lt;/div&gt;</value>
+  </data>
+  <data name="AbouusExp" xml:space="preserve">
+    <value>در ای</value>
+  </data>
+  <data name="all_news_back" xml:space="preserve">
+    <value>برگشت</value>
+  </data>
+  <data name="all_news_continue" xml:space="preserve">
+    <value>ادامه خبر</value>
+  </data>
+  <data name="aya_etelate_vared" xml:space="preserve">
+    <value>آیا اطلاعات وارد شده را تائید می کنید ؟</value>
+  </data>
+  <data name="ba_tashakor" xml:space="preserve">
+    <value>با تشکر از شما</value>
+  </data>
+  <data name="btn_khabarha" xml:space="preserve">
+    <value>خبرها</value>
+  </data>
+  <data name="btn_ok" xml:space="preserve">
+    <value>تائید</value>
+  </data>
+  <data name="btn_sayere_mataleb" xml:space="preserve">
+    <value>سایر خبرها ...</value>
+  </data>
+  <data name="buy_completed" xml:space="preserve">
+    <value>خرید شما تکمیل و ثبت شد</value>
+  </data>
+  <data name="Client_special_place" xml:space="preserve">
+    <value>سرویس کاربران ...</value>
+  </data>
+  <data name="CommercePortal" xml:space="preserve">
+    <value>پرتال بازرگانی</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>شرکت</value>
+  </data>
+  <data name="Company_Name" xml:space="preserve">
+    <value>نام شرکت</value>
+  </data>
+  <data name="confirmpassword" xml:space="preserve">
+    <value>ورود دوباره رمز عبور</value>
+  </data>
+  <data name="ConnectToManager" xml:space="preserve">
+    <value>ارتباط با مدیر عامل</value>
+  </data>
+  <data name="ConntoMngrExp" xml:space="preserve">
+    <value>در این قسمت می توانید پیام های خود را مستقیما برای به مدیر عامل ارسال نمائید</value>
+  </data>
+  <data name="conn_to_man_1" xml:space="preserve">
+    <value>در این قسمت می توانید پیام های خود را مستقیما به مدیر عامل منتقل کنید</value>
+  </data>
+  <data name="conn_to_ravabet" xml:space="preserve">
+    <value>&lt;style type="text/css"&gt;
+        .style2
+        {
+            color: #0000CC;
+            font-weight: bold;
+        }
+        .style4
+        {
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .style5
+        {
+            color: #990000;
+        }
+        .style6
+        {
+            color: #993300;
+            font-weight: bold;
+        }
+        .style8
+        {
+            text-decoration: none;
+        }
+        .style9
+        {
+            color: #993300;
+        }
+    &lt;/style&gt;
+&lt;center&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;img alt="" src="img/Ravabet_Omoomi.jpg" style="width: 449px; height: 162px" /&gt;&lt;/p&gt;
+    &lt;p&gt;
+    &lt;/p&gt;
+&lt;/center&gt;
+
+    &lt;div dir="rtl"  
+    style="padding: 5px; font-family: Tahoma; font-size: 14px; text-align: justify;"&gt;
+        بمنظور گسترش ارتباط با مشتريان و استفاده از فناوريهاي IT وب سايت اين شرکت به 
+        آدرس اينترنتي &lt;span class="style2"&gt;http://www.parsfoulad.com&lt;/span&gt; و ايمل هاي زیر نصب و راه اندازی شده است که 
+        اطلاعات جامع تري از خدمات &amp;nbsp;و توانمندي هاي اين شرکت را در دسترس مراجعين &amp;nbsp;قرار مي 
+        دهد:&lt;br /&gt;
+        &lt;a class="style4" 
+            href="mailto:info@parsfoulad.com(جهت%20ارتباط%20با%20روابط%20عمومی"&gt;info@parsfoulad.com&lt;span 
+            class="style5"&gt;(جهت ارتباط با روابط عمومی&lt;/span&gt;&lt;/a&gt;)&lt;b&gt;&lt;br /&gt;
+        &lt;/b&gt;&lt;a class="style8" 
+            href="mailto:%20commerce@parsfoulad.com%20(جهت%20ارتباط%20با%20واحد%20بازرگانی%20و%20فروش"&gt;
+        &lt;b&gt;&amp;nbsp;commerce@parsfoulad.com 
+        &lt;/b&gt;&lt;span class="style6"&gt;(جهت ارتباط با واحد بازرگانی و فروش&lt;/span&gt;&lt;/a&gt;)&lt;b&gt;&lt;br /&gt;
+        &lt;a class="style8" 
+            href="mailto:%20mostajeran@parsfoulad.com%20(جهت%20ارتباط%20مستقیم%20با%20مدیر%20عامل"&gt;&amp;nbsp;mostajeran@parsfoulad.com 
+        &lt;span class="style9"&gt;(جهت ارتباط 
+        مستقیم با مدیر عامل&lt;/span&gt;&lt;/a&gt;&lt;/b&gt;)&lt;b&gt;&lt;br /&gt;
+        &lt;a class="style8" 
+            href="mailto:%20manager@parsfoulad.com%20(جهت%20ارتباط%20با%20مدیر%20عامل"&gt;&amp;nbsp;manager@parsfoulad.com 
+        &lt;span class="style9"&gt;(جهت ارتباط با مدیر عامل&lt;/span&gt;&lt;/a&gt;&lt;/b&gt;)&lt;br /&gt;
+        در صورت 
+        نياز به کسب اطلاعات بيشتر ميتوانيد با 
+        &lt;br /&gt;
+        شماره تلفن هاي 88742086-88519564 و 
+        88519565 
+        &lt;br /&gt;
+        فکس: 88742085 
+        &lt;br /&gt;
+        تماس حاصل فرماييد.
+
+    
+    &lt;/div&gt;</value>
+  </data>
+  <data name="ContanctToUs" xml:space="preserve">
+    <value>ارتباط با روابط عمومی</value>
+  </data>
+  <data name="dare_gesmat_moshakas" xml:space="preserve">
+    <value>در این قسمت می توانید مشخصات سفارش خود را وارد نمائید :</value>
+  </data>
+  <data name="darkhaste_sefaresh" xml:space="preserve">
+    <value>در خواست سفارش</value>
+  </data>
+  <data name="DeleteTableCache" xml:space="preserve">
+    <value>حذف سفارش جاری</value>
+  </data>
+  <data name="Details_News" xml:space="preserve">
+    <value>ادامه خبر</value>
+  </data>
+  <data name="Details_Notice" xml:space="preserve">
+    <value>ادامه  ...</value>
+  </data>
+  <data name="enter_user_pass" xml:space="preserve">
+    <value>لطفا نام کاربری و رمز عبور خود را وارد کنید :</value>
+  </data>
+  <data name="Factories" xml:space="preserve">
+    <value>کارخانه ها</value>
+  </data>
+  <data name="factoriesExp" xml:space="preserve">
+    <value>با ورود به این قسمت می توانید کارخانه های مربوط به این شرکت را مشاهده کنید</value>
+  </data>
+  <data name="family" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="FinancePortal" xml:space="preserve">
+    <value>پرتال مالی</value>
+  </data>
+  <data name="Galleris" xml:space="preserve">
+    <value>گالری عکس</value>
+  </data>
+  <data name="galleryExp" xml:space="preserve">
+    <value>در این قسمت می توانید عکس در نظر گرفته شده را مشاهده نمائید</value>
+  </data>
+  <data name="GoodsExp" xml:space="preserve">
+    <value>با ورود به این قسمت می توانید لیستی از محصولات را مشاهده کرده و اطلاعات لازم را بدست آورید</value>
+  </data>
+  <data name="Help_Order_Post" xml:space="preserve">
+    <value>لطفا برای بررسی بیشتر خرید خود و دریافت پیش فاکتور به قسمت مدیریت سفارش ها مراجعه فرمائید</value>
+  </data>
+  <data name="home_page_def" xml:space="preserve">
+    <value>با کلیک در این قسمت می توانید به صفحه اول وب سایت منتقل شوید</value>
+  </data>
+  <data name="HowToManageOrders" xml:space="preserve">
+    <value>نحوه پیگیری</value>
+  </data>
+  <data name="HowToOrder" xml:space="preserve">
+    <value>نحوه سفارش</value>
+  </data>
+  <data name="How_Find_This_Web" xml:space="preserve">
+    <value>نحوه آشنایی</value>
+  </data>
+  <data name="how_to_buy" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+    &lt;p&gt;
+        مراجعه کننده محترم محترم شما می توانید با استفاده از سیستم فروش اینترنتی شرکت 
+        اقدام به ثبت سفارش نموده و از این طریق زمان کمتری را صرف خرید از شرکت نمائید.&lt;/p&gt;
+    &lt;p&gt;
+&amp;nbsp;نحوه استفاده :&lt;/p&gt;
+    &lt;p&gt;
+&lt;a href="Goods_Selling.aspx"&gt;&amp;nbsp;وارد قسمت محصولات شوید یا بروی این لینک کلیک نمائید : قسمت محصولات&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        در صفحه محصولات می توانید لیستی از محصولات مورد نظر شرکت برای ارائه به مشتری را 
+        مشاهده نمائید. در این قسمت می توانید به انتخاب محصول مورد نظر و نوشتن مقدار آن 
+        به تن در باکس خالی روبروی قسمت تیک خورده اقدام نمود. بعد از آنکه تمامی اقلام 
+        مورد نیاز خود را انتخاب نموده و مقدار های آن را نیز وارد کردید دکمه تائید و 
+        بررسی خرید را انتخاب کنید. پس از کلیک بروی دکمه تائید و بررسی خرید لیستی برای 
+        شما ظاهر خواهد شد که این لیست همان کالا های انتخاب شده بوسیله خود شما می باشد پس 
+        از آگاهی و اطمینان از محصولات مورد نظر دکمه ثبت را کلیک کنید همکنون سفارش شما 
+        ثبت گردیده و می بایست منتظر نظر مسئول سفارشات جهت تائید باشید. &lt;/p&gt;
+    &lt;p&gt;
+    &lt;a href="how_to_pursiut.aspx"&gt;
+        نحوه ی پیگیری
+        &lt;/a&gt;
+        &lt;/p&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="if_forget" xml:space="preserve">
+    <value>در صورت نداشتن رمز عبور لطفا به لینک زیر مراجعه کنید</value>
+  </data>
+  <data name="if_not_reg" xml:space="preserve">
+    <value>در صورتی که هنوز ثبت نام نکرده اید می توانید به لینک زیر مراجعه کنید</value>
+  </data>
+  <data name="intro_selling" xml:space="preserve">
+    <value>با سلام در این قسمت می توانید بصورت آنلاین سفارش خود را تکمیل نموده و پس از اتمام آن را در سوابق خود ذخیره کرده و همچنین بصورت آنی در اختیار مسئول پیگیری سفارشات قرار دهید</value>
+  </data>
+  <data name="Kala_Hazfe_Kharid" xml:space="preserve">
+    <value>حذف از سبد خرید</value>
+  </data>
+  <data name="Kala_name" xml:space="preserve">
+    <value>نام محصول</value>
+  </data>
+  <data name="Kala_tedad" xml:space="preserve">
+    <value>تعداد</value>
+  </data>
+  <data name="lbl_akhbare_mortabet" xml:space="preserve">
+    <value>اخبار مرتبط با شرکت</value>
+  </data>
+  <data name="lbl_akhbar_va_etelaee" xml:space="preserve">
+    <value>اخبار و اطلاعیه های شرکت</value>
+  </data>
+  <data name="lbl_darbareh_ma" xml:space="preserve">
+    <value>درباره ما</value>
+  </data>
+  <data name="lbl_email" xml:space="preserve">
+    <value>ایمیل</value>
+  </data>
+  <data name="lbl_ertebat_ba_modir" xml:space="preserve">
+    <value>ارتباط با مدیر عامل</value>
+  </data>
+  <data name="lbl_etelat_mofeed" xml:space="preserve">
+    <value>اطلاعات و مطالب مرتبط با فولاد</value>
+  </data>
+  <data name="lbl_forget" xml:space="preserve">
+    <value>فراموشی رمز عبور</value>
+  </data>
+  <data name="lbl_mehman" xml:space="preserve">
+    <value>میهمان</value>
+  </data>
+  <data name="lbl_moarefee_foulad" xml:space="preserve">
+    <value>معرفی فولاد مبارکه</value>
+  </data>
+  <data name="lbl_naghsheh_site" xml:space="preserve">
+    <value>نقشه سایت</value>
+  </data>
+  <data name="lbl_name_karbar" xml:space="preserve">
+    <value>نام کاربر</value>
+  </data>
+  <data name="lbl_notlogin" xml:space="preserve">
+    <value>نام کاربری خود را وارد نکرده اید !</value>
+  </data>
+  <data name="lbl_password" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="lbl_plz_enter_your_reg_info" xml:space="preserve">
+    <value>لطفا مشخصات خود را وارد نمایید</value>
+  </data>
+  <data name="lbl_register" xml:space="preserve">
+    <value>ثبت نام در سایت</value>
+  </data>
+  <data name="lbl_register_in_email_sub" xml:space="preserve">
+    <value>ثبت نام در سیستم خبر رسان</value>
+  </data>
+  <data name="lbl_safhe_aval" xml:space="preserve">
+    <value>صفحه نخست</value>
+  </data>
+  <data name="lbl_saham" xml:space="preserve">
+    <value>امور مجامع و سهام</value>
+  </data>
+  <data name="lbl_sarmaye_gozari" xml:space="preserve">
+    <value>سرمایه گذاری</value>
+  </data>
+  <data name="lbl_sayere_paygaha" xml:space="preserve">
+    <value>سایر پایگاهها</value>
+  </data>
+  <data name="lbl_vajeh" xml:space="preserve">
+    <value>واژه نامه</value>
+  </data>
+  <data name="lbl_vorode_karbarha" xml:space="preserve">
+    <value>ورود کاربرها</value>
+  </data>
+  <data name="lbl_vorod_be_portable_bazargani" xml:space="preserve">
+    <value>ورود به پرتابل بازرگانی</value>
+  </data>
+  <data name="lbl_vorod_be_portal_content" xml:space="preserve">
+    <value>ورود به پرتابل مدیریت محتوا</value>
+  </data>
+  <data name="lbl_vorod_be_system_sabte_sefaresh" xml:space="preserve">
+    <value>ورود به سیستم ثبت سفارش</value>
+  </data>
+  <data name="List_Of_Product" xml:space="preserve">
+    <value>محصولات قابل ارائه</value>
+  </data>
+  <data name="List_Of_Product_Step1" xml:space="preserve">
+    <value>مرحله اول :لطفا محصولات مورد نظر را انتخاب کنید</value>
+  </data>
+  <data name="List_Of_Product_Step2" xml:space="preserve">
+    <value>مرحله دوم : در صورت اطمینان از کالاهای انتخاب شده بروی دکمه تائید کلیک نمائید</value>
+  </data>
+  <data name="LoginToSystem" xml:space="preserve">
+    <value>ورود به سیستم</value>
+  </data>
+  <data name="lotfan_shomareh_sefaresh" xml:space="preserve">
+    <value>لطفا شماره سفارش را همراه داشته باشید تا از این طریق پیگیریهای آتی را انجام دهید</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>مدیریت</value>
+  </data>
+  <data name="Managers_group" xml:space="preserve">
+    <value>اعضای هیئت مدیره</value>
+  </data>
+  <data name="manager_body" xml:space="preserve">
+    <value>&lt;div dir="rtl" style="font-family: tahoma;font-size: small;"&gt;
+    &lt;b&gt;جناب آقای مهندس حسینی والا&lt;/b&gt; با سمت رئیس هیئت مدیره به نمایندگی از شرکت تعاونی مصرف فولاد مبارکه
+    &lt;br /&gt;
+    &lt;b&gt;جناب آقای دکتر عبادپور&lt;/b&gt; نائب رئیس هیئت مدیره به نمایندگی شرکت آتیه فولاد نقش جهان     &lt;br /&gt;
+    &lt;b&gt;جناب آقای مهندس اوحدی&lt;/b&gt; عضو هیئت مدیره به نمایندگی شرکت سرمایه گذاری توکا فولاد
+    &lt;br /&gt;
+    و &lt;b&gt;جناب آقای مهندس مستاجران &lt;/b&gt;مدیر عامل
+    &lt;br /&gt;
+    &lt;span style="color: #003366; font-weight: bold;"&gt;ترکیب سهامداران شرکت پارس فولاد مبین: &lt;/span&gt;
+    &lt;br /&gt;
+    1-شركت آتيه فولاد نقش جهان 95%&lt;br /&gt;
+    2- تعاوني مصرف فولاد مباركه 2%
+    &lt;br /&gt;
+    3-شركت سرمايه گذاري توكا فولاد 1%     &lt;br /&gt;
+    4- شركت توكا تدارك 1%  &lt;br /&gt;
+    5- صنايع برش و ورق فولاد 0.5%&lt;br /&gt;6- شركت توكا حمل و نقل 0.5%
+
+&lt;/div&gt;</value>
+  </data>
+  <data name="manager_label" xml:space="preserve">
+    <value>~/img/Managers_Group_Lbl_fa.jpg</value>
+  </data>
+  <data name="man_lbl_top" xml:space="preserve">
+    <value>در این قسمت می توانید پیام های خود را مستقیما به مدیر عامل منتقل کنید</value>
+  </data>
+  <data name="matne_payam" xml:space="preserve">
+    <value>متن پیام</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>بیشتر</value>
+  </data>
+  <data name="moshakhaste_fani" xml:space="preserve">
+    <value>مشخصات فنی محصول*</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="Name_and_family" xml:space="preserve">
+    <value>نام و نام خانوادگی</value>
+  </data>
+  <data name="name_mahsoul" xml:space="preserve">
+    <value>نام محصول*</value>
+  </data>
+  <data name="Nazar_1" xml:space="preserve">
+    <value>بوسیله گوگل</value>
+  </data>
+  <data name="Nazar_2" xml:space="preserve">
+    <value>بوسیله کاتالوگ</value>
+  </data>
+  <data name="Nazar_3" xml:space="preserve">
+    <value>بوسیله کارت ویزیت</value>
+  </data>
+  <data name="Nazar_4" xml:space="preserve">
+    <value>بوسیله شرکت</value>
+  </data>
+  <data name="Nazar_OK" xml:space="preserve">
+    <value>نظر شما ثبت شد متشکریم</value>
+  </data>
+  <data name="Nazar_Question" xml:space="preserve">
+    <value>چگونه با این وب سایت آشنا شدید ؟</value>
+  </data>
+  <data name="Nazar_title" xml:space="preserve">
+    <value>نظرسنجی</value>
+  </data>
+  <data name="news_submenu" xml:space="preserve">
+    <value>در این قسمت آخرین اطلاعیه ها ، وقایع و اخبارهای مرتبط با شرکت قرار می گیرد</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>مرحله بعدی</value>
+  </data>
+  <data name="noe_bastebani" xml:space="preserve">
+    <value>نوع بسته بندی*</value>
+  </data>
+  <data name="not_reg" xml:space="preserve">
+    <value>قبل از ثبت سفارش شما می بایست به وب سایت Login کنید</value>
+  </data>
+  <data name="occupation" xml:space="preserve">
+    <value>زمینه فعالیت</value>
+  </data>
+  <data name="OK_Order_Top_def" xml:space="preserve">
+    <value>لیستی که در زیر مشاهده می کنید محصولاتیست که در قسمت ثبت سفارش انتخاب نموده اید اگر خواهان حذف محصولی از لیست زیر هستید می توانید با انتخاب دکمه حذف انتخاب محصول مورد نظر را حذف کنید و در صورتی که می خواهید سفارشی را ویرایش کنید می توانید محصول مورد نظر را حذف و مجددا در قسمت ثبت سفارش آن را مجددا ایجاد کنید</value>
+  </data>
+  <data name="OrderManagment" xml:space="preserve">
+    <value>مدیریت سفارش ها</value>
+  </data>
+  <data name="order_code" xml:space="preserve">
+    <value>کد سفارش</value>
+  </data>
+  <data name="Other_Exp" xml:space="preserve">
+    <value>سایر مطالب</value>
+  </data>
+  <data name="other_links" xml:space="preserve">
+    <value>پایگاههای مرتبط</value>
+  </data>
+  <data name="other_products" xml:space="preserve">
+    <value>سایر محصولات</value>
+  </data>
+  <data name="parsfoulad_main_paragraph" xml:space="preserve">
+    <value>شرکت پارس فولاد مبین ، به عنوان یکی از مراکز خدماتی مجتمع فولاد  مباركه  ,به منظور ارائه، توزیع و فروش انواع محصولات تولیدی اين مجتمع با محوریت حفظ حقوق مشتری و با اندیشه ایجاد نوآوری و تحول در عرصه فروش و خدمات در استان تهران تاسیس و آغاز به كار نمود</value>
+  </data>
+  <data name="period" xml:space="preserve">
+    <value>پریود تحویل*</value>
+  </data>
+  <data name="Please_enter_pass" xml:space="preserve">
+    <value>لطفا ایمیل و رمز عبور خود را وارد نمائید :</value>
+  </data>
+  <data name="Portal" xml:space="preserve">
+    <value>پرتال ها</value>
+  </data>
+  <data name="PostOrder" xml:space="preserve">
+    <value>ثبت سفارش</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>محصولات</value>
+  </data>
+  <data name="product_image" xml:space="preserve">
+    <value>~/img/productions_fa_logo.jpg</value>
+  </data>
+  <data name="product_moghdameh" xml:space="preserve">
+    <value>برخی از خدمات این شرکت به طور خلاصه بشرح زیر می باشد:&lt;br /&gt;
+•ورق و كلاف گرم(Hot Rolled Coil &amp; Sheet) مطابق با استانداردهاي:&lt;br /&gt;
+API 5L Gr.B-X42-X46-X52(قابل مصرف در تولید لوله های درزدار خطوط  انتقال نفت ، گاز و پتروشیمی)&lt;br /&gt;
+ASTM A 442-60, A 516, A 515,A414,A516,A537 (در مصارف تولید مخازن تحت فشار-مخازن نگهداری گاز مایع)&lt;br /&gt;
+ST33,Rst 37-2,Rt 37 3U,ST 44,ST52-3,SK52-3U (تولید لوله و پروفیل ساختمانی و ماشین سازی)....&lt;br /&gt;
+
+•ورق قلع اندود(Tin Plated Steel Sheet) مطابق با استانداردهای: &lt;br /&gt;
+ T50,T52,T54,T61 (قابل مصرف در قوطی سازی،.....)&lt;br /&gt;
+•ورق سرد  (Cold Rolled Sheet)مطابق بااستانداردهای:&lt;br /&gt;
+ST 12,  RRST 13  ,  ST 14  (قابل مصرف در لوازم خانگی- بدنه اتومبیل)&lt;br /&gt;
+EK2,EK4(درمصارف لعابکاری) ST 37-3G , ST 44-3G(در سازه های صنعتی سبک)&lt;br /&gt;
+ST 12,RRST 13        (قابل مصرف در رادیاتور سازی-بشکه سازی)........&lt;br /&gt;
+•ورق اسید شوئی(Pickled Coil &amp; Sheet) مطابق بااستانداردهاي:    &lt;br /&gt;
+STW 22,RRSTW23,STW24       (درمصارف کششی-پروفیل ساختمانی)&lt;br /&gt;
+ST 37,ST44       (درمصارف گالوانیزه کردن –پروفیل ساختمانی)&lt;br /&gt;
+•کلاف گالوانیزه(Hot Dip Zinc Coated Steel Sheet) جهت مصارف کششی.&lt;br /&gt;
+ورق وکلافهای رنگی(Coil Coated Steel Sheet) در اندازه های مختلف و رنگهای قرمز,آبی و سفید....&lt;br /&gt;</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>گزارشات</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>ارسال</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>خدمات</value>
+  </data>
+  <data name="shomareh_sefaresh" xml:space="preserve">
+    <value>شماره سفارش</value>
+  </data>
+  <data name="Sign_out" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="size" xml:space="preserve">
+    <value>اندازه / سایز*</value>
+  </data>
+  <data name="tavajoh_dashteh_basheed" xml:space="preserve">
+    <value>توجه داشته باشید پر کردن فیلدهای * ستاره دار الزامی است</value>
+  </data>
+  <data name="tedat" xml:space="preserve">
+    <value>تعداد / مقدار*</value>
+  </data>
+  <data name="tel" xml:space="preserve">
+    <value>شماره تماس</value>
+  </data>
+  <data name="Text_Align" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="Text_Direction" xml:space="preserve">
+    <value>rtl</value>
+  </data>
+  <data name="TodayIs" xml:space="preserve">
+    <value>تاریخ امروز</value>
+  </data>
+  <data name="user_name" xml:space="preserve">
+    <value>نام کاربر</value>
+  </data>
+  <data name="visitors" xml:space="preserve">
+    <value>مراجعات </value>
+  </data>
+  <data name="YouHaveCart" xml:space="preserve">
+    <value>در رایانه شما یک سبد خرید وجود دارد</value>
+  </data>
+  <data name="YouHaveCart_Edit" xml:space="preserve">
+    <value>ویرایش سبد خرید</value>
+  </data>
+  <data name="YouHaveCart_Post" xml:space="preserve">
+    <value>تائید و ارسال</value>
+  </data>
+  <data name="_clear_form" xml:space="preserve">
+    <value>اگر می خواهید فرم زیر را پاک کنید اینجا را کلیک کنید</value>
+  </data>
+  <data name="_clear_form_btn" xml:space="preserve">
+    <value>پاک شود</value>
+  </data>
+  <data name="_code" xml:space="preserve">
+    <value>کد</value>
+  </data>
+  <data name="_datetime" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="_datetimetime" xml:space="preserve">
+    <value>ساعت</value>
+  </data>
+  <data name="_details" xml:space="preserve">
+    <value>جزئیات</value>
+  </data>
+  <data name="_email_is_require" xml:space="preserve">
+    <value>لطفا ایمیل خود را وارد کنید&lt;br/&gt;</value>
+  </data>
+  <data name="_email_not_found" xml:space="preserve">
+    <value>ایمیل وارد شده شما یافت نشد</value>
+  </data>
+  <data name="_email_verify" xml:space="preserve">
+    <value>لطفا آدرس ایمیل خود را صحیح وارد نمایید&lt;br/&gt;</value>
+  </data>
+  <data name="_exp" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="_family_is_require" xml:space="preserve">
+    <value>لطفا نام خانوادگی خود را وارد کنید&lt;br/\&gt;</value>
+  </data>
+  <data name="_forgot_password" xml:space="preserve">
+    <value>اگر رمز عبور خود را فراموش کرده اید اینجا کلیک کنید</value>
+  </data>
+  <data name="_forgot_password_btn" xml:space="preserve">
+    <value>رمز من را ارسال کن</value>
+  </data>
+  <data name="_name_is_require" xml:space="preserve">
+    <value>لطفا نام خود را وارد کنید &lt;br/&gt;</value>
+  </data>
+  <data name="_OK" xml:space="preserve">
+    <value>تائید</value>
+  </data>
+  <data name="_password_is_require" xml:space="preserve">
+    <value>لطفا رمز عبور خود را وارد کنید&lt;br/&gt;</value>
+  </data>
+  <data name="_Please_Wait" xml:space="preserve">
+    <value>لطفا صبر کنید ...</value>
+    <comment> ..</comment>
+  </data>
+  <data name="_registered_success" xml:space="preserve">
+    <value>ثبت نام شما با موفقیت انجام گردید</value>
+  </data>
+  <data name="_result" xml:space="preserve">
+    <value>نتیجه</value>
+  </data>
+  <data name="_Send_My_password" xml:space="preserve">
+    <value>ارسال رمز عبور</value>
+  </data>
+  <data name="_you_registered_before" xml:space="preserve">
+    <value>شما قبلا ثبت نام کرده اید</value>
+  </data>
+  <data name="__registration_form_alter_message" xml:space="preserve">
+    <value>فیلدهای * را خالی رها نکنید</value>
+  </data>
+  <data name="forgottenPasswordSent" xml:space="preserve">
+    <value>رمز عبور شما به ایمیلتان ارسال شد</value>
+  </data>
+  <data name="registration" xml:space="preserve">
+    <value>ثبت نام</value>
+  </data>
+  <data name="RecievedList" xml:space="preserve">
+    <value>پیام های دریافتی</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>ارسال پیام</value>
+  </data>
+  <data name="SentList" xml:space="preserve">
+    <value>پیام های ارسالی</value>
+  </data>
+  <data name="ClientLogin" xml:space="preserve">
+    <value>ورود کاربران</value>
+  </data>
+  <data name="ErtebatBaMa" xml:space="preserve">
+    <value>انتقادات و پیشنهادات</value>
+  </data>
+  <data name="Marakezekhadamati" xml:space="preserve">
+    <value>شرکت های تابعه</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>اخبار</value>
+  </data>
+  <data name="Sahamdaran" xml:space="preserve">
+    <value>سهامداران</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>پشتیبانی</value>
+  </data>
+  <data name="tahilihayeEghtesadi" xml:space="preserve">
+    <value>تحلیل های اقتصادی</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>مرا بخاطر بسپار</value>
+  </data>
+  <data name="St1" xml:space="preserve">
+    <value>InternationalFa.jpg</value>
+  </data>
+  <data name="St2" xml:space="preserve">
+    <value>indicatingFa.jpg</value>
+  </data>
+  <data name="St3" xml:space="preserve">
+    <value>stockFa.jpg</value>
+  </data>
+  <data name="St4" xml:space="preserve">
+    <value>ContactFa.jpg</value>
+  </data>
+  <data name="St5" xml:space="preserve">
+    <value>AboutUsFa.jpg</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>شما به این صفحه دسترسی ندارید</value>
+  </data>
+  <data name="SelectCount" xml:space="preserve">
+    <value>انتخاب نرخ</value>
+  </data>
+  <data name="fee" xml:space="preserve">
+    <value>نرخ</value>
+  </data>
+  <data name="LatestFees" xml:space="preserve">
+    <value>آخرین اطلاعات و قیمت های کشف شده عمومی</value>
+  </data>
+  <data name="tarikh" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="latestNews" xml:space="preserve">
+    <value>آخرین اخبار عمومی</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>ورود</value>
+  </data>
+  <data name="YourPrivateArea" xml:space="preserve">
+    <value>محیط اختصاصی شما !</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>&lt;div&gt;
+    &lt;b&gt;دفتر مرکزی&lt;/b&gt; : تهران، خیابان دکتر شریعتی، خیابان وحید دستگردی ( ظفر ) ، پلاک 69 ، طبقه دوم 
+    &lt;b&gt;کد پستی :&lt;/b&gt; 1911834713 &lt;b&gt;صندوق پستی : &lt;/b&gt;19395-5633  &lt;b&gt;تلفن : &lt;/b&gt;02122274297 - 02122261905 
+    &lt;b&gt;فاکس : &lt;/b&gt;02122261906  &lt;br /&gt;
+    &lt;b&gt;دفتر اصفهان :&lt;/b&gt; اصفهان، سي و سه پل، مجتمع كوثر، فاز يك، طبقه سوم، واحد 505 ، &lt;b&gt;تلفن:
+    &lt;/b&gt;6204952-0311  &lt;b&gt;فاکس:&lt;/b&gt; 6204954-0311    &lt;b&gt;كد پستي : &lt;/b&gt;8173696861  &lt;br /&gt;
+    &lt;b&gt;دفتر فولاد مبارکه :&lt;/b&gt; شرکت فولاد مبارکه ، جنب مسجد جامع ، داخلی 2169 ، &lt;b&gt;تلفکس:&lt;/b&gt; 03355432169&lt;br /&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="newfa" xml:space="preserve">
+    <value>~/img/NewsFar.jpg</value>
+  </data>
+  <data name="ErsaleNazar" xml:space="preserve">
+    <value>ارسال نظرات</value>
+  </data>
+  <data name="ErsaleNazarOK" xml:space="preserve">
+    <value>نظر شما ارسال شد متشکرم</value>
+  </data>
+  <data name="AboutUsEn" xml:space="preserve">
+    <value>AboutUsFa.jpg</value>
+  </data>
+  <data name="ContactEn" xml:space="preserve">
+    <value>ContactFa.jpg</value>
+  </data>
+  <data name="indicatingEn" xml:space="preserve">
+    <value>indicatingFa.jpg</value>
+  </data>
+  <data name="InternationalEn" xml:space="preserve">
+    <value>InternationalFa.jpg</value>
+  </data>
+  <data name="LogoAddress" xml:space="preserve">
+    <value>~/img/TopLogoFa.gif</value>
+  </data>
+  <data name="MainEn" xml:space="preserve">
+    <value>MainFa.jpg</value>
+  </data>
+  <data name="ServiceCenters" xml:space="preserve">
+    <value>~/img/ServiceCentersFA.jpg</value>
+  </data>
+  <data name="stockEn" xml:space="preserve">
+    <value>stockFa.jpg</value>
+  </data>
+  <data name="welcomeuser" xml:space="preserve">
+    <value>خوش آمدید </value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>متن پیام</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>موضوع</value>
+  </data>
+  <data name="TopNews" xml:space="preserve">
+    <value>اخبار مهم</value>
+  </data>
+  <data name="CompleteNews" xml:space="preserve">
+    <value>متن کامل خبر</value>
+  </data>
+  <data name="AddressTitle" xml:space="preserve">
+    <value>آدرس شرکت آتیه فولاد</value>
+  </data>
+  <data name="welcomeToStck" xml:space="preserve">
+    <value>به سامانه مدیریت سهام خوش آمدید</value>
+  </data>
+  <data name="agahiMajameAdai" xml:space="preserve">
+    <value>آگهی مجامع عادی یا فوق العاده</value>
+  </data>
+  <data name="agahiTaghsimeSood" xml:space="preserve">
+    <value>آگهی تقسیم های سود</value>
+  </data>
+  <data name="codesaham" xml:space="preserve">
+    <value>کد سهام</value>
+  </data>
+  <data name="mizaneSaham" xml:space="preserve">
+    <value>تعداد سهام</value>
+  </data>
+  <data name="namebank" xml:space="preserve">
+    <value>نام بانک</value>
+  </data>
+  <data name="noehesab" xml:space="preserve">
+    <value>نوع حساب</value>
+  </data>
+  <data name="shomarehhesab" xml:space="preserve">
+    <value>شماره حساب</value>
+  </data>
+  <data name="_name" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="MsgSentSuccess" xml:space="preserve">
+    <value>پیام شما با موفقیت ارسال شد متشکریم</value>
+  </data>
+  <data name="SendMessageToAdmin" xml:space="preserve">
+    <value>ارسال پیام به مدیر وب سایت</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>تغییر رمز عبور</value>
+  </data>
+  <data name="LastPassword" xml:space="preserve">
+    <value>رمز عبور قبلی</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>رمز عبور جدید</value>
+  </data>
+  <data name="EducationArtilces" xml:space="preserve">
+    <value>مقالات و تازه های آموزش</value>
+  </data>
+  <data name="ExaminationsList" xml:space="preserve">
+    <value>لیست آزمون ها</value>
+  </data>
+  <data name="Factory" xml:space="preserve">
+    <value>کارخانه</value>
+  </data>
+  <data name="GalleryEnter" xml:space="preserve">
+    <value>ورود به گالری ...</value>
+  </data>
+  <data name="GalleryTopic" xml:space="preserve">
+    <value>به گالری تصاویر صبافولادخلیج فارس خوش آمدید</value>
+  </data>
+  <data name="introduction" xml:space="preserve">
+    <value>در راستای افزایش ظرفیت تولید فولاد کشور و شکوفایی صنعتی نظام مقدس جمهوری اسلامی ایران شرکت صبا فولاد خلیج فارس با سرمایه گذاری مشترک صندوق بازنشستگی کشوری و شرکت سرمایه گذاری صندوق بازنشستگی کشوری با هدف تولیدسالانه 4.5 میلیون تن آهن اسفنجی ،1.5میلیون تن شمش (بیلت) و 2.7 میلیون تن اسلب شکل گرفته و طی دو فاز به مرحله بهره برداری خواهد رسید.</value>
+  </data>
+  <data name="marqueeFirstPage" xml:space="preserve">
+    <value>به وب سایت رسمی شرکت صبا فولاد خلیج فارس خوش آمدید                         در این سایت اخبار ، اطلاعات و بیانیه های رسمی شرکت قرار می گیرد</value>
+  </data>
+</root>

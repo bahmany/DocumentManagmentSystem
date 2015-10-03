@@ -1,0 +1,5 @@
+﻿bool is_user_available_by_username(string username)//return is user exist or not
+void send_email(string _to, string subject,string body)
+string GetParamValue(string param_name)
+string Encode(string str)
+string Decode(string str)

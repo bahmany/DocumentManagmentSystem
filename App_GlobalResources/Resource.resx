@@ -1,0 +1,1528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUS" xml:space="preserve">
+    <value>ABOUT US</value>
+  </data>
+  <data name="about_page_def" xml:space="preserve">
+    <value>Click here to see more details about Parsfoulad</value>
+  </data>
+  <data name="about_us" xml:space="preserve">
+    <value>&lt;html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40"&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv=Content-Type content="text/html; charset=us-ascii"&gt;
+&lt;meta name=ProgId content=Word.Document&gt;
+&lt;meta name=Generator content="Microsoft Word 12"&gt;
+&lt;meta name=Originator content="Microsoft Word 12"&gt;
+&lt;link rel=File-List href="IntheNameofGodHHHHHHHHHHHRML_files/filelist.xml"&gt;
+&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;o:DocumentProperties&gt;
+  &lt;o:Author&gt;Mohammad&lt;/o:Author&gt;
+  &lt;o:Template&gt;Normal&lt;/o:Template&gt;
+  &lt;o:LastAuthor&gt;Mohammad&lt;/o:LastAuthor&gt;
+  &lt;o:Revision&gt;3&lt;/o:Revision&gt;
+  &lt;o:TotalTime&gt;14&lt;/o:TotalTime&gt;
+  &lt;o:Created&gt;2009-07-16T21:50:00Z&lt;/o:Created&gt;
+  &lt;o:LastSaved&gt;2009-07-16T21:55:00Z&lt;/o:LastSaved&gt;
+  &lt;o:Pages&gt;1&lt;/o:Pages&gt;
+  &lt;o:Words&gt;303&lt;/o:Words&gt;
+  &lt;o:Characters&gt;1732&lt;/o:Characters&gt;
+  &lt;o:Lines&gt;14&lt;/o:Lines&gt;
+  &lt;o:Paragraphs&gt;4&lt;/o:Paragraphs&gt;
+  &lt;o:CharactersWithSpaces&gt;2031&lt;/o:CharactersWithSpaces&gt;
+  &lt;o:Version&gt;12.00&lt;/o:Version&gt;
+ &lt;/o:DocumentProperties&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;
+&lt;link rel=themeData href="IntheNameofGodHHHHHHHHHHHRML_files/themedata.thmx"&gt;
+&lt;link rel=colorSchemeMapping
+href="IntheNameofGodHHHHHHHHHHHRML_files/colorschememapping.xml"&gt;
+&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;w:WordDocument&gt;
+  &lt;w:Zoom&gt;98&lt;/w:Zoom&gt;
+  &lt;w:SpellingState&gt;Clean&lt;/w:SpellingState&gt;
+  &lt;w:GrammarState&gt;Clean&lt;/w:GrammarState&gt;
+  &lt;w:TrackMoves&gt;false&lt;/w:TrackMoves&gt;
+  &lt;w:TrackFormatting/&gt;
+  &lt;w:PunctuationKerning/&gt;
+  &lt;w:ValidateAgainstSchemas/&gt;
+  &lt;w:SaveIfXMLInvalid&gt;false&lt;/w:SaveIfXMLInvalid&gt;
+  &lt;w:IgnoreMixedContent&gt;false&lt;/w:IgnoreMixedContent&gt;
+  &lt;w:AlwaysShowPlaceholderText&gt;false&lt;/w:AlwaysShowPlaceholderText&gt;
+  &lt;w:DoNotPromoteQF/&gt;
+  &lt;w:LidThemeOther&gt;EN-US&lt;/w:LidThemeOther&gt;
+  &lt;w:LidThemeAsian&gt;X-NONE&lt;/w:LidThemeAsian&gt;
+  &lt;w:LidThemeComplexScript&gt;AR-SA&lt;/w:LidThemeComplexScript&gt;
+  &lt;w:Compatibility&gt;
+   &lt;w:BreakWrappedTables/&gt;
+   &lt;w:SnapToGridInCell/&gt;
+   &lt;w:WrapTextWithPunct/&gt;
+   &lt;w:UseAsianBreakRules/&gt;
+   &lt;w:DontGrowAutofit/&gt;
+   &lt;w:SplitPgBreakAndParaMark/&gt;
+   &lt;w:DontVertAlignCellWithSp/&gt;
+   &lt;w:DontBreakConstrainedForcedTables/&gt;
+   &lt;w:DontVertAlignInTxbx/&gt;
+   &lt;w:Word11KerningPairs/&gt;
+   &lt;w:CachedColBalance/&gt;
+  &lt;/w:Compatibility&gt;
+  &lt;w:BrowserLevel&gt;MicrosoftInternetExplorer4&lt;/w:BrowserLevel&gt;
+  &lt;m:mathPr&gt;
+   &lt;m:mathFont m:val="Cambria Math"/&gt;
+   &lt;m:brkBin m:val="before"/&gt;
+   &lt;m:brkBinSub m:val="&amp;#45;-"/&gt;
+   &lt;m:smallFrac m:val="off"/&gt;
+   &lt;m:dispDef/&gt;
+   &lt;m:lMargin m:val="0"/&gt;
+   &lt;m:rMargin m:val="0"/&gt;
+   &lt;m:defJc m:val="centerGroup"/&gt;
+   &lt;m:wrapIndent m:val="1440"/&gt;
+   &lt;m:intLim m:val="subSup"/&gt;
+   &lt;m:naryLim m:val="undOvr"/&gt;
+  &lt;/m:mathPr&gt;&lt;/w:WordDocument&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267"&gt;
+  &lt;w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 7"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 8"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 9"/&gt;
+  &lt;w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/&gt;
+  &lt;w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/&gt;
+  &lt;w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/&gt;
+  &lt;w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/&gt;
+  &lt;w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/&gt;
+  &lt;w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/&gt;
+  &lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/&gt;
+  &lt;w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/&gt;
+  &lt;w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/&gt;
+  &lt;w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/&gt;
+  &lt;w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/&gt;
+  &lt;w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/&gt;
+  &lt;w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/&gt;
+  &lt;w:LsdException Locked="false" Priority="37" Name="Bibliography"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/&gt;
+ &lt;/w:LatentStyles&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;
+&lt;style&gt;
+&lt;!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1107304683 0 0 159 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627400839 -2147483648 8 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.style4, li.style4, div.style4
+	{mso-style-name:style4;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1796020674;
+	mso-list-type:hybrid;
+	mso-list-template-ids:529157676 67698703 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--&gt;
+&lt;/style&gt;
+&lt;!--[if gte mso 10]&gt;
+&lt;style&gt;
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+&lt;/style&gt;
+&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;o:shapedefaults v:ext="edit" spidmax="3074"/&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;o:shapelayout v:ext="edit"&gt;
+  &lt;o:idmap v:ext="edit" data="1"/&gt;
+ &lt;/o:shapelayout&gt;&lt;/xml&gt;&lt;![endif]--&gt;
+&lt;/head&gt;
+
+&lt;body lang=EN-US style='tab-interval:.5in'&gt;
+
+&lt;div class=Section1&gt;
+
+&lt;p class=MsoNormal align=center style='margin-top:2.0pt;margin-right:0in;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;
+mso-line-height-alt:0pt'&gt;&lt;b&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;In the Name of God&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-top:2.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+0pt'&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Pars &lt;span class=SpellE&gt;Foulad&lt;/span&gt;
+&lt;span class=SpellE&gt;Mobin&lt;/span&gt; Co PJS, being established in 1387 and based in
+Tehran had initiate its activities as one of the most high-standing service
+centers of &amp;nbsp;Esfahan&amp;nbsp; Mobarakeh Steel Co. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-top:2.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+0pt'&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;In order to present , sale &amp;amp;
+distribute different kind of this Complex &amp;nbsp;products on the basis of
+safeguarding customers rights &amp;amp; interest and creating innovation and
+positive changes(Evolution) in the field of sale and serving. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-top:2.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+0pt'&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Pars &lt;span class=SpellE&gt;Foulad&lt;/span&gt;
+&lt;span class=SpellE&gt;Mobin&lt;/span&gt; Co PJS, along with sale promotion, started to
+do measurement of &amp;nbsp;Preparing &amp;nbsp;a premises in Shams &lt;span class=SpellE&gt;abad&lt;/span&gt;
+Industrial Center at the distance of 45 kilometer from Tehran ,on the purpose
+of&amp;nbsp; construction of &amp;nbsp;forming and cutting workshops , equipped with
+full mechanized system and modern production lines. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-top:2.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+0pt'&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Consequently in the near future
+moreover sale services we will proudly present our making and transforming
+output as one of the&lt;span class=GramE&gt;&amp;nbsp; most&lt;/span&gt; developed industrial
+units .&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-top:2.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+0pt'&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;In the light of this possibility we
+do &lt;span class=GramE&gt;our &amp;nbsp;most&lt;/span&gt; effort to obtain customer s'
+satisfaction and to increase variety of &amp;nbsp;production in proportionate to
+daily demand of our honorable consumers. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-top:2.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+0pt'&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Pars &lt;span class=SpellE&gt;Foulad&lt;/span&gt;
+&lt;span class=SpellE&gt;Mobin&lt;/span&gt; Co PJS, at the present is involved as Esfahan&lt;span
+class=GramE&gt;&amp;nbsp; Mobarakeh&lt;/span&gt; Steel &lt;span class=SpellE&gt;Co.s&lt;/span&gt;'
+agency&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-top:2.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+0pt'&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;&amp;nbsp;&lt;span class=GramE&gt;in&lt;/span&gt;
+Tehran and having undertaken supply of great majority of trading and producing guilds
+market demands.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-top:2.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+0pt'&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Our &amp;nbsp;retail policy ,leads to
+&amp;nbsp;selling large quantity of Mobarakeh s' products to customers that enjoy
+reliable quality according &amp;nbsp;to &amp;nbsp;international standard grades with
+least deviation of dimensional verified tolerances, beside benefiting
+packing&amp;nbsp; which protect cargo during &amp;nbsp;loading and transportation in
+every respect .&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-top:2.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+0pt'&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;&amp;nbsp;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-top:2.0pt;margin-right:0in;margin-bottom:0in;
+margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+0pt'&gt;&lt;b&gt;&lt;span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Some of our services in concise:&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-top:2.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-align:justify;text-indent:-.25in;
+mso-line-height-alt:0pt;mso-list:l0 level1 lfo2'&gt;&lt;![if !supportLists]&gt;&lt;b&gt;&lt;span
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-font-family:
+Tahoma'&gt;&lt;span style='mso-list:Ignore'&gt;1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;![endif]&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'&gt;Presenting all
+&amp;nbsp;Mobarakehs' products &amp;nbsp;including:&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-top:2.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;text-align:justify;text-indent:
+-.25in;mso-line-height-alt:0pt;mso-list:l0 level2 lfo2'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:10.0pt;font-family:"Courier New";mso-fareast-font-family:"Courier New"'&gt;&lt;span
+style='mso-list:Ignore'&gt;o&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span style='font-size:
+10.0pt;font-family:"Tahoma","sans-serif";color:#548DD4;mso-themecolor:text2;
+mso-themetint:153'&gt;Hot Rolled Coil &amp;amp; Sheet&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-top:2.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;text-align:justify;text-indent:
+-.25in;mso-line-height-alt:0pt;mso-list:l0 level2 lfo2'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:10.0pt;font-family:"Courier New";mso-fareast-font-family:"Courier New"'&gt;&lt;span
+style='mso-list:Ignore'&gt;o&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span style='font-size:
+10.0pt;font-family:"Tahoma","sans-serif";color:#548DD4;mso-themecolor:text2;
+mso-themetint:153'&gt;Tin Plated steel sheet&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:
+10.0pt;font-family:"Tahoma","sans-serif"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-top:2.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;text-align:justify;text-indent:
+-.25in;mso-line-height-alt:0pt;mso-list:l0 level2 lfo2'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:10.0pt;font-family:"Courier New";mso-fareast-font-family:"Courier New"'&gt;&lt;span
+style='mso-list:Ignore'&gt;o&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span style='font-size:
+10.0pt;font-family:"Tahoma","sans-serif";color:#548DD4;mso-themecolor:text2;
+mso-themetint:153'&gt;Cold Rolled Sheet&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:10.0pt;
+font-family:"Tahoma","sans-serif"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-top:2.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;text-align:justify;text-indent:
+-.25in;mso-line-height-alt:0pt;mso-list:l0 level2 lfo2'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:10.0pt;font-family:"Courier New";mso-fareast-font-family:"Courier New"'&gt;&lt;span
+style='mso-list:Ignore'&gt;o&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span style='font-size:
+10.0pt;font-family:"Tahoma","sans-serif";color:#548DD4;mso-themecolor:text2;
+mso-themetint:153'&gt;Pickled Coil &amp;amp; Sheet&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:
+10.0pt;font-family:"Tahoma","sans-serif"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-top:2.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;text-align:justify;text-indent:
+-.25in;mso-line-height-alt:0pt;mso-list:l0 level2 lfo2'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:10.0pt;font-family:"Courier New";mso-fareast-font-family:"Courier New"'&gt;&lt;span
+style='mso-list:Ignore'&gt;o&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span style='font-size:
+10.0pt;font-family:"Tahoma","sans-serif";color:#548DD4;mso-themecolor:text2;
+mso-themetint:153'&gt;Hot Dip Zinc Coated Steel Sheet (tension usage)&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-top:2.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-align:justify;text-indent:-.25in;
+mso-line-height-alt:0pt;mso-list:l0 level1 lfo2'&gt;&lt;![if !supportLists]&gt;&lt;b&gt;&lt;span
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-font-family:
+Tahoma'&gt;&lt;span style='mso-list:Ignore'&gt;2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;![endif]&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'&gt;Cutting coil to
+sheets &amp;amp; plates in different shapes and dimensions such as Z, Trapezoid,
+&amp;#8230;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-top:2.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-align:justify;text-indent:-.25in;
+mso-line-height-alt:0pt;mso-list:l0 level1 lfo2'&gt;&lt;![if !supportLists]&gt;&lt;b&gt;&lt;span
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-font-family:
+Tahoma'&gt;&lt;span style='mso-list:Ignore'&gt;3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;![endif]&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'&gt;Transporting from
+Mill to customer warehouses directly.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-top:2.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-align:justify;text-indent:-.25in;
+mso-line-height-alt:0pt;mso-list:l0 level1 lfo2'&gt;&lt;![if !supportLists]&gt;&lt;b&gt;&lt;span
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-font-family:
+Tahoma'&gt;&lt;span style='mso-list:Ignore'&gt;4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;![endif]&gt;&lt;span dir=LTR&gt;&lt;/span&gt;&lt;b&gt;&lt;span
+style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'&gt;Delivering cargo in
+Tehran or Esfahan store.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</value>
+  </data>
+  <data name="all_news_back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="all_news_continue" xml:space="preserve">
+    <value>More News ...</value>
+  </data>
+  <data name="aya_etelate_vared" xml:space="preserve">
+    <value>Are you ready to send this order ?</value>
+  </data>
+  <data name="ba_tashakor" xml:space="preserve">
+    <value>Thank you</value>
+  </data>
+  <data name="btn_khabarha" xml:space="preserve">
+    <value>News...</value>
+  </data>
+  <data name="btn_ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btn_sayere_mataleb" xml:space="preserve">
+    <value>More News ...</value>
+  </data>
+  <data name="buy_completed" xml:space="preserve">
+    <value>Your Selling Complete</value>
+  </data>
+  <data name="Client_special_place" xml:space="preserve">
+    <value>Customers Service ...</value>
+  </data>
+  <data name="CommercePortal" xml:space="preserve">
+    <value>Commerce Portal</value>
+  </data>
+  <data name="CommercePortal1" xml:space="preserve">
+    <value>Commerce Portal</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Company_Name" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="confirmpassword" xml:space="preserve">
+    <value>Confirm Your Password</value>
+  </data>
+  <data name="ConnectToManager" xml:space="preserve">
+    <value>Connect to Manager</value>
+  </data>
+  <data name="ConntoMngrExp" xml:space="preserve">
+    <value>By clicking here you can send your message directly to manager</value>
+  </data>
+  <data name="conn_to_ravabet" xml:space="preserve">
+    <value>&lt;p class="style4"&gt;
+        Our web site with address &lt;a href="http://www.parsfoulad.com"&gt;www.parsfoulad.com&lt;/a&gt; 
+        and emails (&lt;a href="mailto:manager@parsfoulad.com"&gt;manager@parsfoulad.com&lt;/a&gt;,
+        &lt;a href="mailto:info@parsfoulad.com"&gt;info@parsfoulad.com&lt;/a&gt; ) are installed to 
+        develop customer communication via IT&lt;span style="mso-spacerun:yes"&gt;&amp;nbsp;
+        &lt;/span&gt;technology. And hereby display &amp;amp; put comprehensive information of our 
+        capabilities &amp;amp; liabilities within other reaches. In case of needing further 
+        information don’t hesitate contacting us with details&lt;span 
+            style="mso-spacerun:yes"&gt;&amp;nbsp; &lt;/span&gt;as follows: Tel:(+98 
+        )21-88742086-88519564-88519565&lt;span style="mso-spacerun:yes"&gt;&amp;nbsp; &lt;/span&gt;Fax: 
+        (+98 )21-88742085
+    &lt;/p&gt;</value>
+  </data>
+  <data name="ContanctToUs" xml:space="preserve">
+    <value>Contact to us</value>
+  </data>
+  <data name="dare_gesmat_moshakas" xml:space="preserve">
+    <value>In this section you can enter your order’s details</value>
+  </data>
+  <data name="darkhaste_sefaresh" xml:space="preserve">
+    <value>Request for purchase order</value>
+  </data>
+  <data name="DeleteTableCache" xml:space="preserve">
+    <value>Clear current order</value>
+  </data>
+  <data name="Details_News" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Details_Notice" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="enter_user_pass" xml:space="preserve">
+    <value>Please Enter Your Username and Passowrd </value>
+  </data>
+  <data name="Factories" xml:space="preserve">
+    <value>Factories</value>
+  </data>
+  <data name="factoriesExp" xml:space="preserve">
+    <value>Click here to see more details about factories</value>
+  </data>
+  <data name="family" xml:space="preserve">
+    <value>Family</value>
+  </data>
+  <data name="FinancePortal" xml:space="preserve">
+    <value>Finance Portal</value>
+  </data>
+  <data name="Galleris" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="galleryExp" xml:space="preserve">
+    <value>Click here to see more pictures in our gallery</value>
+  </data>
+  <data name="GoodsExp" xml:space="preserve">
+    <value>Click here to see all products</value>
+  </data>
+  <data name="Help_Order_Post" xml:space="preserve">
+    <value>Please go to Order Management part for printing and managing your orders</value>
+  </data>
+  <data name="home_page_def" xml:space="preserve">
+    <value>Click here to go home page</value>
+  </data>
+  <data name="HowToManageOrders" xml:space="preserve">
+    <value>How to Manage Orders</value>
+  </data>
+  <data name="HowToOrder" xml:space="preserve">
+    <value>How to Order</value>
+  </data>
+  <data name="How_Find_This_Web" xml:space="preserve">
+    <value>How did you find this website ?</value>
+  </data>
+  <data name="how_to_buy" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+    &lt;p&gt;
+        مراجعه کننده محترم محترم شما می توانید با استفاده از سیستم فروش اینترنتی شرکت 
+        اقدام به ثبت سفارش نموده و از این طریق زمان کمتری را صرف خرید از شرکت نمائید.&lt;/p&gt;
+    &lt;p&gt;
+&amp;nbsp;نحوه استفاده :&lt;/p&gt;
+    &lt;p&gt;
+&lt;a href="Goods_Selling.aspx"&gt;&amp;nbsp;وارد قسمت محصولات شوید یا بروی این لینک کلیک نمائید : قسمت محصولات&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        در صفحه محصولات می توانید لیستی از محصولات مورد نظر شرکت برای ارائه به مشتری را 
+        مشاهده نمائید. در این قسمت می توانید به انتخاب محصول مورد نظر و نوشتن مقدار آن 
+        به تن در باکس خالی روبروی قسمت تیک خورده اقدام نمود. بعد از آنکه تمامی اقلام 
+        مورد نیاز خود را انتخاب نموده و مقدار های آن را نیز وارد کردید دکمه تائید و 
+        بررسی خرید را انتخاب کنید. پس از کلیک بروی دکمه تائید و بررسی خرید لیستی برای 
+        شما ظاهر خواهد شد که این لیست همان کالا های انتخاب شده بوسیله خود شما می باشد پس 
+        از آگاهی و اطمینان از محصولات مورد نظر دکمه ثبت را کلیک کنید همکنون سفارش شما 
+        ثبت گردیده و می بایست منتظر نظر مسئول سفارشات جهت تائید باشید. &lt;/p&gt;
+    &lt;p&gt;
+    &lt;a href="how_to_pursiut.aspx"&gt;
+        نحوه ی پیگیری
+        &lt;/a&gt;
+        &lt;/p&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="if_forget" xml:space="preserve">
+    <value>if you forget your password please click on the following link</value>
+  </data>
+  <data name="if_not_reg" xml:space="preserve">
+    <value>if you did not sign up please click on the following link</value>
+  </data>
+  <data name="intro_selling" xml:space="preserve">
+    <value>Hello In this part you can complete your order forms and save it into your specific part and then send it to the operator as soon as possible</value>
+  </data>
+  <data name="Kala_Hazfe_Kharid" xml:space="preserve">
+    <value>Delete from card</value>
+  </data>
+  <data name="Kala_name" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Kala_tedad" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lbl_akhbare_mortabet" xml:space="preserve">
+    <value>Parsfoulad’s related news &amp; notice</value>
+  </data>
+  <data name="lbl_akhbar_va_etelaee" xml:space="preserve">
+    <value>Parsfoulad’s news and notice</value>
+  </data>
+  <data name="lbl_darbareh_ma" xml:space="preserve">
+    <value>ABOUT US</value>
+  </data>
+  <data name="lbl_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lbl_ertebat_ba_modir" xml:space="preserve">
+    <value>Contact with director manager</value>
+  </data>
+  <data name="lbl_etelat_mofeed" xml:space="preserve">
+    <value>Information about steel</value>
+  </data>
+  <data name="lbl_forget" xml:space="preserve">
+    <value>Forgot password</value>
+  </data>
+  <data name="lbl_mehman" xml:space="preserve">
+    <value>Guest</value>
+  </data>
+  <data name="lbl_moarefee_foulad" xml:space="preserve">
+    <value>Introduction of Foulde Mobarakeh</value>
+  </data>
+  <data name="lbl_naghsheh_site" xml:space="preserve">
+    <value>Site Map</value>
+  </data>
+  <data name="lbl_name_karbar" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="lbl_notlogin" xml:space="preserve">
+    <value>You are not login !</value>
+  </data>
+  <data name="lbl_password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lbl_plz_enter_your_reg_info" xml:space="preserve">
+    <value>Please Enter Your Information</value>
+  </data>
+  <data name="lbl_register" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="lbl_register_in_email_sub" xml:space="preserve">
+    <value>Sign Up in News By Email</value>
+  </data>
+  <data name="lbl_safhe_aval" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lbl_saham" xml:space="preserve">
+    <value>Joint-Stock</value>
+  </data>
+  <data name="lbl_sarmaye_gozari" xml:space="preserve">
+    <value>Investing</value>
+  </data>
+  <data name="lbl_sayere_paygaha" xml:space="preserve">
+    <value>Other Links</value>
+  </data>
+  <data name="lbl_vajeh" xml:space="preserve">
+    <value>Fould Dictionary</value>
+  </data>
+  <data name="lbl_vorode_karbarha" xml:space="preserve">
+    <value>Login to Website</value>
+  </data>
+  <data name="lbl_vorod_be_portable_bazargani" xml:space="preserve">
+    <value>Login to Commerce Portal</value>
+  </data>
+  <data name="lbl_vorod_be_portal_content" xml:space="preserve">
+    <value>Login to Content Manager</value>
+  </data>
+  <data name="lbl_vorod_be_system_sabte_sefaresh" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="List_Of_Product" xml:space="preserve">
+    <value>List of Products</value>
+  </data>
+  <data name="List_Of_Product_Step1" xml:space="preserve">
+    <value>Step 1 : Please select the product</value>
+  </data>
+  <data name="List_Of_Product_Step2" xml:space="preserve">
+    <value>Step Two: click OK button if you are ready</value>
+  </data>
+  <data name="LoginToSystem" xml:space="preserve">
+    <value>Login to system</value>
+  </data>
+  <data name="lotfan_shomareh_sefaresh" xml:space="preserve">
+    <value>Please record order number for you can pursue it as required.</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>Managements</value>
+  </data>
+  <data name="Managers_group" xml:space="preserve">
+    <value>Managers Group</value>
+  </data>
+  <data name="manager_body" xml:space="preserve">
+    <value>&lt;div dir="ltr" style="font-family: tahoma; text-align: left; font-size: small;"&gt;
+    &lt;b&gt;Mr , Hassan Hosseini Vala&lt;/b&gt; Per pro Efahan Mobarakeh Steel Consumer's Cooperatives Position: board of directors' chairman &lt;br /&gt;
+    &lt;b&gt;Phd, Bahram Ebad Por&lt;/b&gt; per pro Atieh Foulad N. J. Co position: board of directors' vice chairman &lt;br /&gt;
+    &lt;b&gt;Mr, Jamshid Ohadi&lt;/b&gt; per pro Tooka Steel Investment Co position: Board of directors' member &lt;br /&gt;
+    &lt;span style=" color: #003366; font-weight: bold;"&gt;Shareholders of record :&lt;/span&gt;&lt;br /&gt;
+1-Atieh Foulad N. J. Co.95%. &lt;br /&gt;
+2-Efahan Mobarakeh Steel Consumer s Cooperatives 2%.&lt;br /&gt;
+3-Tooka Steel Investment Co.1%.&lt;br /&gt;
+4-Tooka Procurement Co.1%.&lt;br /&gt;
+5-Steel Sheet And Cutting Industry Co.0.5%.&lt;br /&gt;
+6-Tooka Transportation Co.0.5%.&lt;br /&gt;
+
+&lt;/div&gt;</value>
+  </data>
+  <data name="manager_label" xml:space="preserve">
+    <value>~/img/Managers_Group_Lbl_en.jpg</value>
+  </data>
+  <data name="man_lbl_top" xml:space="preserve">
+    <value>In this box, you can share your massages directly to director manager.</value>
+  </data>
+  <data name="matne_payam" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="moshakhaste_fani" xml:space="preserve">
+    <value>Technical properties of the product*</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Name_and_family" xml:space="preserve">
+    <value>Name and Family</value>
+  </data>
+  <data name="name_mahsoul" xml:space="preserve">
+    <value>Product name*</value>
+  </data>
+  <data name="Nazar_1" xml:space="preserve">
+    <value>By Google</value>
+  </data>
+  <data name="Nazar_2" xml:space="preserve">
+    <value>By Catalogue</value>
+  </data>
+  <data name="Nazar_3" xml:space="preserve">
+    <value>By Visit Card</value>
+  </data>
+  <data name="Nazar_4" xml:space="preserve">
+    <value>By Company</value>
+  </data>
+  <data name="Nazar_OK" xml:space="preserve">
+    <value>Your vote has been saved Thanks</value>
+  </data>
+  <data name="Nazar_Question" xml:space="preserve">
+    <value>How did you find this website ?</value>
+  </data>
+  <data name="Nazar_title" xml:space="preserve">
+    <value>Votes</value>
+  </data>
+  <data name="news_submenu" xml:space="preserve">
+    <value>In this part you can see latest news of Parsfoulad</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="noe_bastebani" xml:space="preserve">
+    <value>Packaging type*</value>
+  </data>
+  <data name="not_reg" xml:space="preserve">
+    <value>You must login before posting your order</value>
+  </data>
+  <data name="occupation" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="OK_Order_Top_def" xml:space="preserve">
+    <value>The following list contains the orders which you have selected in Post Order part. If you want to delete an order you can press Delete Selection button. If you want to edit an order you can first delete the order or selection then make it again in Post Order part</value>
+  </data>
+  <data name="OrderManagment" xml:space="preserve">
+    <value>Orders Management</value>
+  </data>
+  <data name="order_code" xml:space="preserve">
+    <value>Order Code</value>
+  </data>
+  <data name="Other_Exp" xml:space="preserve">
+    <value>Other Notice</value>
+  </data>
+  <data name="other_links" xml:space="preserve">
+    <value>Related Links</value>
+  </data>
+  <data name="other_products" xml:space="preserve">
+    <value>Other Products</value>
+  </data>
+  <data name="parsfoulad_main_paragraph" xml:space="preserve">
+    <value>Pars Foulad Mobin Company has been established as the seller agent and distributor of Mobarakeh Steel Company's products.&lt;br /&gt;
+The products which we are able to present are as follows.&lt;br /&gt;
+Various Kind of Hot Rolled Steel Coils.&lt;br /&gt;
+Various Kind of Hot Rolled Steel Sheets.&lt;br /&gt;
+Various Kind of Cold Rolled Steel Sheets.&lt;br /&gt;
+Various Kind of Cold Rolled Steel Sheets.&lt;br /&gt;
+Various Kind of Pickled Steel Coils.&lt;br /&gt;
+Various Kind of Galvanized Coils.&lt;br /&gt;
+Various Kind of Galvanized Sheets.&lt;br /&gt;
+Various Kind of Narrow Steel Bonds.&lt;br /&gt;
+Various Kind of Plated Steel Sheets.&lt;br /&gt;
+Various Kind of Colored Galvanized Coils.&lt;br /&gt;</value>
+  </data>
+  <data name="period" xml:space="preserve">
+    <value>Delivery period*</value>
+  </data>
+  <data name="Please_enter_pass" xml:space="preserve">
+    <value>Please enter your email and password</value>
+  </data>
+  <data name="Portal" xml:space="preserve">
+    <value>Portals</value>
+  </data>
+  <data name="PostOrder" xml:space="preserve">
+    <value>New Order</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="product_image" xml:space="preserve">
+    <value>~/img/productions_en_logo.jpg</value>
+  </data>
+  <data name="product_moghdameh" xml:space="preserve">
+    <value>No English</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="shomareh_sefaresh" xml:space="preserve">
+    <value>Order No</value>
+  </data>
+  <data name="Sign_out" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="size" xml:space="preserve">
+    <value>Size*</value>
+  </data>
+  <data name="tavajoh_dashteh_basheed" xml:space="preserve">
+    <value>Please note that filling fields indicated with star(*) is obliged.</value>
+  </data>
+  <data name="tedat" xml:space="preserve">
+    <value>Quantity*</value>
+  </data>
+  <data name="tel" xml:space="preserve">
+    <value>Tel No.</value>
+  </data>
+  <data name="Text_Align" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="Text_Direction" xml:space="preserve">
+    <value>ltr</value>
+  </data>
+  <data name="TodayIs" xml:space="preserve">
+    <value>Today is </value>
+  </data>
+  <data name="user_name" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="visitors" xml:space="preserve">
+    <value>Visitors </value>
+  </data>
+  <data name="YouHaveCart" xml:space="preserve">
+    <value>You have a Cart</value>
+  </data>
+  <data name="YouHaveCart_Edit" xml:space="preserve">
+    <value>Edit The Order</value>
+  </data>
+  <data name="YouHaveCart_Post" xml:space="preserve">
+    <value>Post The Order</value>
+  </data>
+  <data name="_clear_form" xml:space="preserve">
+    <value>Click Here if you want to clear the form</value>
+  </data>
+  <data name="_clear_form_btn" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="_code" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="_datetime" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="_datetimetime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="_details" xml:space="preserve">
+    <value>Details...</value>
+  </data>
+  <data name="_email_is_require" xml:space="preserve">
+    <value>&lt;br/&gt;Please Enter Your Email&lt;br/&gt;</value>
+  </data>
+  <data name="_email_not_found" xml:space="preserve">
+    <value>This email was not found in database</value>
+  </data>
+  <data name="_email_verify" xml:space="preserve">
+    <value>&lt;br/&gt;Please enter a valid email&lt;br/&gt;</value>
+  </data>
+  <data name="_exp" xml:space="preserve">
+    <value>Explanations</value>
+  </data>
+  <data name="_family_is_require" xml:space="preserve">
+    <value>&lt;br/&gt;Please Enter Your Family&lt;br/&gt;</value>
+  </data>
+  <data name="_forgot_password" xml:space="preserve">
+    <value>you forgot your password</value>
+  </data>
+  <data name="_forgot_password_btn" xml:space="preserve">
+    <value>Send my password</value>
+  </data>
+  <data name="_name_is_require" xml:space="preserve">
+    <value>&lt;br/&gt;Please Enter Your Name&lt;br/&gt;</value>
+  </data>
+  <data name="_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="_password_is_require" xml:space="preserve">
+    <value>&lt;br/&gt;Please Enter Your Password&lt;br/&gt;</value>
+  </data>
+  <data name="_Please_Wait" xml:space="preserve">
+    <value>Please wait ...</value>
+  </data>
+  <data name="_registered_success" xml:space="preserve">
+    <value>You have registered successfully</value>
+  </data>
+  <data name="_result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="_Send_My_password" xml:space="preserve">
+    <value>Send My password</value>
+  </data>
+  <data name="_you_registered_before" xml:space="preserve">
+    <value>You have been registered before</value>
+  </data>
+  <data name="__registration_form_alter_message" xml:space="preserve">
+    <value>* Fields are require</value>
+  </data>
+  <data name="forgottenPasswordSent" xml:space="preserve">
+    <value>Your Password has been sent to your email</value>
+  </data>
+  <data name="registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="RecievedList" xml:space="preserve">
+    <value>Recieved Messages</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="SentList" xml:space="preserve">
+    <value>Sent Messages</value>
+  </data>
+  <data name="LogoAddress" xml:space="preserve">
+    <value>~/img/TopLogoEn.gif</value>
+  </data>
+  <data name="ClientLogin" xml:space="preserve">
+    <value>CLIENT LOGIN</value>
+  </data>
+  <data name="ErtebatBaMa" xml:space="preserve">
+    <value>CONTACT WITH US</value>
+  </data>
+  <data name="Marakezekhadamati" xml:space="preserve">
+    <value>SERVICE CENTERS</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>NEWS</value>
+  </data>
+  <data name="QuickContact" xml:space="preserve">
+    <value>QUICK CONTACT</value>
+  </data>
+  <data name="Sahamdaran" xml:space="preserve">
+    <value>STOCKHOLDER</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>SUPPORT</value>
+  </data>
+  <data name="tahilihayeEghtesadi" xml:space="preserve">
+    <value>ECONOMICAL ANALYSIS</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Remember me</value>
+  </data>
+  <data name="St1" xml:space="preserve">
+    <value>InternationalEn.jpg</value>
+  </data>
+  <data name="St2" xml:space="preserve">
+    <value>indicatingEn.jpg</value>
+  </data>
+  <data name="St3" xml:space="preserve">
+    <value>stockEn.jpg</value>
+  </data>
+  <data name="St4" xml:space="preserve">
+    <value>ContactEn.jpg</value>
+  </data>
+  <data name="St5" xml:space="preserve">
+    <value>AboutUsEn.jpg</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>You don't access to this page</value>
+  </data>
+  <data name="SelectCount" xml:space="preserve">
+    <value>Select Rate</value>
+  </data>
+  <data name="fee" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="LatestFees" xml:space="preserve">
+    <value>Latest rates and statics</value>
+  </data>
+  <data name="tarikh" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="latestNews" xml:space="preserve">
+    <value>Latest Public News</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="YourPrivateArea" xml:space="preserve">
+    <value>Your Private Area !</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>&lt;div&gt;
+    &lt;b&gt;Head Office&lt;/b&gt; : 2nd Floor, No.69, Vahid Dastgerdi (Zafar) St., Dr. Shariati 
+    Ave., Tehran, Iran &lt;b&gt;Postal Code&lt;/b&gt; : 1911834713 &lt;b&gt;Post Box&lt;/b&gt; : 19395-5633
+    &lt;br /&gt;
+    &lt;b&gt;Tel&lt;/b&gt;:+98(0)2122261905, +98(0)2122274297 &lt;b&gt;Fax&lt;/b&gt;:+98(0)2122261906
+    &lt;br /&gt;
+    &lt;b&gt;Esfahan Office&lt;/b&gt; : No 2169, Next to Jame Mosque, Mobarakeh Steel Co. - &lt;b&gt;
+    Tel/Fax&lt;/b&gt; : +98(0)3355432169
+    &lt;/div&gt;</value>
+  </data>
+  <data name="newfa" xml:space="preserve">
+    <value>~/img/NewsEng.jpg</value>
+  </data>
+  <data name="ErsaleNazar" xml:space="preserve">
+    <value>Send Your Comment</value>
+  </data>
+  <data name="ErsaleNazarOK" xml:space="preserve">
+    <value>Your comment has been send successfully Thanks</value>
+  </data>
+  <data name="AboutUsEn" xml:space="preserve">
+    <value>AboutUsEn.jpg</value>
+  </data>
+  <data name="ContactEn" xml:space="preserve">
+    <value>ContactEn.jpg</value>
+  </data>
+  <data name="indicatingEn" xml:space="preserve">
+    <value>indicatingEn.jpg</value>
+  </data>
+  <data name="InternationalEn" xml:space="preserve">
+    <value>InternationalEn.jpg</value>
+  </data>
+  <data name="MainEn" xml:space="preserve">
+    <value>MainEn.jpg</value>
+  </data>
+  <data name="ServiceCenters" xml:space="preserve">
+    <value>~/img/ServiceCentersEN.jpg</value>
+  </data>
+  <data name="stockEn" xml:space="preserve">
+    <value>stockEn.jpg</value>
+  </data>
+  <data name="welcomeuser" xml:space="preserve">
+    <value>Welcome </value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="TopNews" xml:space="preserve">
+    <value>Top News</value>
+  </data>
+  <data name="CompleteNews" xml:space="preserve">
+    <value>Complete News</value>
+  </data>
+  <data name="AddressTitle" xml:space="preserve">
+    <value>Address Of Atiehfoulad</value>
+  </data>
+  <data name="welcomeToStck" xml:space="preserve">
+    <value>Welcome to Stockes Manager</value>
+  </data>
+  <data name="agahiMajameAdai" xml:space="preserve">
+    <value>Notice of Public Councils</value>
+  </data>
+  <data name="agahiTaghsimeSood" xml:space="preserve">
+    <value>Notice of Divition of Profit</value>
+  </data>
+  <data name="codesaham" xml:space="preserve">
+    <value>Stock ID</value>
+  </data>
+  <data name="mizaneSaham" xml:space="preserve">
+    <value>Stock count</value>
+  </data>
+  <data name="namebank" xml:space="preserve">
+    <value>Bank Name</value>
+  </data>
+  <data name="noehesab" xml:space="preserve">
+    <value>Account Type</value>
+  </data>
+  <data name="shomarehhesab" xml:space="preserve">
+    <value>Account No</value>
+  </data>
+  <data name="_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="MsgSentSuccess" xml:space="preserve">
+    <value>Your Message Sent Successfully</value>
+  </data>
+  <data name="SendMessageToAdmin" xml:space="preserve">
+    <value>Send Message to Website Administrator</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="LastPassword" xml:space="preserve">
+    <value>Last Password</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="EducationArtilces" xml:space="preserve">
+    <value>Articles and News of Education</value>
+  </data>
+  <data name="ExaminationsList" xml:space="preserve">
+    <value>Examinations List</value>
+  </data>
+  <data name="Factory" xml:space="preserve">
+    <value>Factory</value>
+  </data>
+  <data name="GalleryEnter" xml:space="preserve">
+    <value>Enter to the gallery ...</value>
+  </data>
+  <data name="GalleryTopic" xml:space="preserve">
+    <value>Welcome to Images Galleris of Sabafoolad</value>
+  </data>
+  <data name="introduction" xml:space="preserve">
+    <value>In Translating</value>
+  </data>
+  <data name="marqueeFirstPage" xml:space="preserve">
+    <value>Welcome to official website of Sabafoolad Persian Gulf                We inform our news and public papers by this website</value>
+  </data>
+</root>

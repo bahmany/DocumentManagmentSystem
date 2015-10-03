@@ -1,0 +1,160 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage"  %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+
+
+
+<head runat="server">
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <script defer type="text/javascript" src="pngfix.js"></script>
+
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+  
+    
+    
+
+    
+    
+</head>
+<body  dir="<%Response.Write(Get_ltr_rtl());%>"  style="background-image: url( '../img/backcons.jpg' );background-position: center top; font-family: tahoma; font-size: 12px; background-color: #FFFFFF; background-repeat: repeat-x; background-attachment: scroll; color: #000000;">
+   
+      <script language="javascript">
+        var arVersion = navigator.appVersion.split("MSIE")
+        var version = parseFloat(arVersion[1])
+
+        if ((version >= 5.5) && (document.body.filters)) {
+            for (var i = 0; i < document.images.length; i++) {
+                var img = document.images[i]
+                var imgName = img.src.toUpperCase()
+                if (imgName.substring(imgName.length - 3, imgName.length) == "PNG") {
+                    var imgID = (img.id) ? "id='" + img.id + "' " : ""
+                    var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+                    var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+                    var imgStyle = "display:inline-block;" + img.style.cssText
+                    if (img.align == "left") imgStyle = "float:left;" + imgStyle
+                    if (img.align == "right") imgStyle = "float:right;" + imgStyle
+                    if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+                    var strNewHTML = "<span " + imgID + imgClass + imgTitle
+         + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+         + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+         + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>"
+                    img.outerHTML = strNewHTML
+                    i = i - 1
+                }
+            }
+        }
+
+    
+    
+    </script> 
+   
+   
+   
+    <form id="form1" runat="server">
+    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+    </telerik:RadScriptManager>
+    <div id="div_main">
+
+ <div style="background-color: #B6D7F6; text-align: center;">      
+     <img src="img/Untitled-2.jpg" />
+ &nbsp;<div id="div_main_menu" style="background-color: #141c19; height: 20px; vertical-align: middle; text-align: center;">|
+     <a href="homepage.aspx"><asp:Literal ID="Label1" runat="server" Text="<%$ Resources:Resource, lbl_safhe_aval %>" /></a> |
+     <a  href="links.aspx?page_id=36"><asp:Literal ID="Label2" runat="server" Text="<%$ Resources:Resource, news %>" /></a>  |
+     <a  href="links.aspx?page_id=65"><asp:Literal ID="Label5" runat="server" Text="<%$ Resources:Resource, tahilihayeEghtesadi %>" /></a>|
+     <a  href="links.aspx?page_id=66"><asp:Literal ID="Label3" runat="server" Text="<%$ Resources:Resource, Galleris %>" /></a>|
+     <a  href="links.aspx?page_id=42"><asp:Literal ID="Label6" runat="server" Text="<%$ Resources:Resource, Factory %>" /></a>|
+     <a  href="links.aspx?page_id=54"><asp:Literal ID="Label7" runat="server" Text="<%$ Resources:Resource, ErtebatBaMa %>" /></a>|
+     <a  href="links.aspx?page_id=53"><asp:Literal ID="Label4" runat="server" Text="<%$ Resources:Resource, AboutUs %>" /></a>|
+     <a  href="links.aspx?page_id=0&value=1"><asp:Literal ID="Label8" runat="server" Text="English/فارسی"/></a>
+     
+     </div>
+ </div>
+     
+     </div>
+    <div class="center_div" style="text-align: <%Response.Write(Get_Right_Left());%>" >
+ 
+ 
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+ 
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+ <div style="width: 100%; background-color: #000000">...</div>
+    
+    <div>
+    
+    
+               
+                 <table   style="font-family: tahoma; font-size: 10px; color: #999999; margin-left: 0px; text-align: center; vertical-align: middle;" 
+                     cellpadding="0" cellspacing="0">
+                     <tr style="height: 30px">
+                         <td style="border-right-style: solid; border-right-width: 1px; border-right-color: #999999; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #999999">
+                       
+                             <asp:Panel ID="pnl_reg" runat="server" Visible="False">
+                                 <asp:LinkButton ID="lb_clientsignout" runat="server" 
+                                     Text="<%$ Resources:Resource, Sign_out %>" onclick="lb_clientsignout_Click"></asp:LinkButton>
+                                  &nbsp;&nbsp;&nbsp;
+                                 <asp:HyperLink ID="lb_GoToPr" runat="server" Text="<%$ Resources:Resource, YourPrivateArea %>" NavigateUrl="links.aspx?page_id=45"></asp:HyperLink>
+
+
+                                      
+                          
+
+                             </asp:Panel>
+                                 
+                               <asp:Panel ID="pnl_not_reg" runat="server" Visible="true">
+                             <asp:HyperLink ID="hl_clientlogin" runat="server" 
+                                 Text="<%$ Resources:Resource, ClientLogin %>" NavigateUrl="links.aspx?page_id=13">   </asp:HyperLink>
+
+                             </asp:Panel>
+                               
+                                 
+                                 </td>
+                         <td style="border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #999999">
+                                        <asp:HyperLink ID="HyperLink1" runat="server" 
+                                            Text="<%$ Resources:Resource, Support %>"  NavigateUrl="links.aspx?page_id=60"> ></asp:HyperLink></td>
+               
+                         <td style="border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #999999; border-left-style: solid; border-left-width: 1px; border-left-color: #999999;">
+                                          <asp:HyperLink ID="HyperLink2" runat="server" 
+                                              Text="<%$ Resources:Resource, QuickContact %>"></asp:HyperLink>
+                        </td>
+               
+                   
+                     </tr>
+                     <tr>
+                         <td colspan="3">
+                             &nbsp;</td>
+                     
+                     </tr>
+                     <tr>
+                         <td>
+                             <asp:Label ID="lbl_WelcomeMsg" runat="server" 
+                                 Text="<%$ Resources:Resource, welcomeuser %>"></asp:Label>
+                             <asp:Label ID="lbl_name" runat="server"></asp:Label>
+                         </td>
+                         <td>
+                             &nbsp;</td>
+                         <td>
+                             &nbsp;</td>
+                      
+                     </tr>
+    </table>
+               
+               
+               
+              
+      
+    </div>
+    
+    
+    
+    
+
+    </form>
+</body>
+</html>
